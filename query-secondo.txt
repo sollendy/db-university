@@ -1,0 +1,2 @@
+QUERY 1: SELECT `students`.`name` AS `nome_studente`, `students`.`surname`, `degrees`.`name` AS `facoltà` FROM `degrees` INNER JOIN `students` ON `students`.`degree_id` = `degrees`.`id`;
+QUERY 2: 
